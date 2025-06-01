@@ -62,7 +62,7 @@ html, body {
 nav a {
   display: inline-block;
   line-height: 1;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-decoration: none;
   color: #ccc;
   margin: 0;
@@ -82,7 +82,7 @@ nav a {
 }
 
 .featured-logo {
-  width: 35%;
+  width: 15%;
   max-width: 100%;
   margin-top: 140px;
   border: 1px solid white;
@@ -98,17 +98,16 @@ nav a {
 }
 
 .tagline {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-style: italic;
-  margin-bottom: -18px;
+  margin-bottom: -15px;
   color: #333333;
-  margin-top: -1px;
 }
 
 #featured p {
   font-family: 'Montserrat', sans-serif;
   color: #333333;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
   font-style: italic;
   
@@ -118,7 +117,7 @@ nav a {
 
 .selection-header {
   text-align: center;
-  font-size: 2.75rem;
+  font-size: 2.1rem;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -130,6 +129,8 @@ nav a {
 }
 
 .coffee-img1 {
+  max-width: 100%;
+  width: 25vw;
   background: linear-gradient(
       90deg,
       var(--background-color1)5%,
@@ -140,6 +141,8 @@ nav a {
 }
 
 .coffee-img2 {
+  max-width: 100%;
+  width: 25vw;
   background: linear-gradient(
       30deg,
       var(--background-color3),
@@ -149,6 +152,8 @@ nav a {
 }
 
 .coffee-img3 {
+  max-width: 100%;
+  width: 30vw;
   background: linear-gradient(
       -30deg,
       var(--background-color1)5%,
@@ -161,10 +166,10 @@ nav a {
 .coffee-wrap {
   max-width: 100%;
   width: 200px;
-  max-height: 100%;
+  min-height: 550px;
   height: auto;
   text-align: center;
-  font-size: 2.75rem;
+  font-size: 2rem;
   border: 3px solid #333333;
   font-weight: bold;
   background: #7b3f00;
@@ -173,13 +178,13 @@ nav a {
 }
 
 ul li {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-top: -5px;
 }
 
 .order-link {
   color: #f5f5dc;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-decoration: none;
   border: 1px solid var(--background-color1);
   background: var(--background-color3);
@@ -188,6 +193,7 @@ ul li {
   border-radius: 10px;
 }
 
+/* discount section */
 
 .discount {
   display: flex;
@@ -200,7 +206,6 @@ ul li {
   
 }
 
-/* discount section */
 
 #form {
   display: flex;
@@ -211,21 +216,21 @@ ul li {
 .discount-text {
   text-align: center;
   color: #f5f5dc;
-  font-size: 2.75rem;
+  font-size: 2.1rem;
 }
 
 .discount label {
   color: #f5f5dc;
   margin: 10px auto;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-family: 'Barlow', sans-serif;
   font-weight: 500;
 }
 
 .discount .discount-email {
   width: 100%;
-  padding-right: 15rem;
+  padding-right: 10rem;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
@@ -246,7 +251,7 @@ ul li {
 
 #about h1 {
   text-align: center;
-  font-size: 2.75rem;
+  font-size: 2.1rem;
   font-family: 'Barlow', sans-serif;
   margin-top: 8rem;
 }
@@ -255,7 +260,7 @@ ul li {
   max-width: 100%;
   margin: 1% 10% 1.5% 10%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
 }
 
@@ -300,32 +305,9 @@ footer p{
   justify-content: space-evenly;
   align-items: center;
   }
-  
-  .selection-header {
-  font-size: 2.4rem;
-  }
-
-.tagline {
-  font-size: 1.9rem;
 }
 
-.coffee-wrap {
-  width: 100px;
-  height: auto;
-  text-align: center;
-  font-size: 2.3rem;
-  margin-bottom: 30px;
-}
 
-ul li {
-  font-size: 1.9rem;
-  margin-top: -5px;
-}
-
-.order-link {
-  font-size: 1.9rem;
-  }
-}
 
 @media only screen and (max-width: 600px) {
   .selection {
@@ -334,29 +316,5 @@ ul li {
   justify-content: space-evenly;
   align-items: center;
   }
-  
-  .selection-header {
-  font-size: 2.4rem;
-  }
 
-.tagline {
-  font-size: 1.9rem;
-}
-
-.coffee-wrap {
-  width: 100px;
-  height: auto;
-  text-align: center;
-  font-size: 2.3rem;
-  margin-bottom: 30px;
-}
-
-ul li {
-  font-size: 1.9rem;
-  margin-top: -5px;
-}
-
-.order-link {
-  font-size: 1.9rem;
-  }
 }
